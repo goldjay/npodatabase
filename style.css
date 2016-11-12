@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: "Arial";
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+#displayContent{
+  margin-left: 20%;
+  padding: 20px;
+}
+
+.formStyle{
+  border-radius: 20px;
+  padding: 5px 10px 30px;
+  margin-top: 50px;
+  background: #f1f1f1;
+}
+
+.formStyle input {
+       width: 70%;
+       float: right;
+       clear: both;
+   }
+
+.formStyle input[type="submit" i]{
+  width: 150px;
+}
+
+fieldset{
+  border-radius: 20px;
+  margin-bottom: 15px;
+  padding: 0 20px;
+}
